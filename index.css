@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-size: cover;
+	}
+.Calculator{
+	padding: 10px;
+}
+.BOX{
+	font-size: 20px;
+}
+.btn{
+	background-color: skyblue;
+	height: 30px;
+	width: 50px;
+}
+.submit{
+	padding: 10px;
+}

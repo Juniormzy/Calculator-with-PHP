@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    }
+.Calculator{
+    padding: 10px;
+}
+.BOX{
+    font-size: 20px;
+}
+.btn{
+    background-color: skyblue;
+    height: 30px;
+    width: 50px;
+}
+.submit{
+    padding: 10px;
+}        
+    </style>
+</head>
+<body>
+	<center>
+	<FORM action="cal.php" method="GET">
+		<div class="Calculator">
+    	<h1>Simple Maths Equations</h1>
+    	<div class="Text1">
+    		<h2>Slect your equation</H2>
+    		<p><i>Press + For Addition</i></p>
+    		<p><i>Press - to Minus</i></p>
+    		<p><i>Press * to Multiply</i></p>
+    		<p><i>Press / For Addition</i></p>
+    			<input type="Text" name="first" for="first" id="first" placeholder="Type Equations here" class="BOX">
+    			<h6><i>Example + </i></h6>
+    		</div>
+    	
+    		<div class="Text">
+    			<H3>First Value</H3>
+    			<input type="Text" name="second" id="second" for="second">
+    		</div>
+    		<div class="FM">
+    			<H3>Second Value</H3>
+    			<input type="Text" name="third" id="third" for="third">
+    		</div>
+    		<div class="submit">
+    			<input type="submit" name="fourth" value="submit" class="btn">
+    		</div>
+    	</div>
+    </div>
+	</FORM> 
+    
+    </center>
+
+</body>
+</html>
